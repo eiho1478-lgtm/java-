@@ -51,7 +51,7 @@ public class Question1 {
 		System.out.println(doubleNum);
 		
 		// 初期値を設定
-		char letter;
+		char letter = 'q';
 		// "a"を代入
 		letter = 'a';
 		// 出力: "a"
@@ -72,7 +72,7 @@ public class Question1 {
 		System.out.println(isBoolean);
 		
 		// 自己代入で 10000 に足し算
-		longNum = longNum + 1110;
+		longNum = longNum + byteNum + shortNum + intNum;
 		// 出力: 11110
 		System.out.println(longNum);
 		
