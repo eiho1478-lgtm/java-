@@ -51,21 +51,21 @@ public class Question1 {
 		System.out.println(doubleNum);
 		
 		// 初期値を設定
-		char letter = 'q';
+		char letter = '\u0000';
 		// "a"を代入
 		letter = 'a';
 		// 出力: "a"
 		System.out.println(letter);
 		
 		// 初期値を設定
-		String letters;
+		String letters = null;
 		// "ハロー"を代入
 		letters = "ハロー";
 		// 出力: "ハロー"
 		System.out.println(letters);
 		
 		// 初期値を設定
-		boolean isBoolean;
+		boolean isBoolean = false;
 		// trueを代入
 		isBoolean = true;
 		// 出力: true
@@ -82,7 +82,7 @@ public class Question1 {
 		System.out.println(intNum);
 		
 		// 自己代入
-		letters = "a ハロー true";
+		letters = letter + "ハロー true";
 		// 出力: "a ハロー true"
 		System.out.println(letters);
 		
@@ -93,11 +93,9 @@ public class Question1 {
 		// 出力: 11130
 		System.out.println(y);
 		
-		long e = 100000;
-		long r = 100000;
-		// 自己代入でかけ算
-		long prise = e * r;
-		System.out.println(prise);
+		longNum = byteNum * shortNum * intNum * longNum;
+		// 出力: 10000000000
+		System.out.println(longNum);
 		
 		// d に 10.5 を 代入
 		double d = 10.5;

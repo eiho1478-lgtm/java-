@@ -76,7 +76,6 @@ public class Question3 {
 		j++;
 		}
 		System.out.println(sum2);
-		}
 
 	/* Q10 ユーザーから 数値を入力 してもらう
 	 * 入力が 0 になるまで 何度でも入力を受け付ける
@@ -85,7 +84,7 @@ public class Question3 {
 	 */
 	Scanner scanner = new Scanner(System.in);
 	int number;
-	{
+	
 
 		do {
 			number = scanner.nextInt();
