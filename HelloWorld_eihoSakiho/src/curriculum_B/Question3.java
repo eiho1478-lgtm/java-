@@ -1,6 +1,5 @@
 package curriculum_B;
 
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -72,19 +71,18 @@ public class Question3 {
 		int sum2 = 0;
 		int j = 1;
 		while (j <= 100) {
-		sum2 += j;
-		j++;
+			sum2 += j;
+			j++;
 		}
 		System.out.println(sum2);
 
-	/* Q10 ユーザーから 数値を入力 してもらう
-	 * 入力が 0 になるまで 何度でも入力を受け付ける
-	 * 0が入力されたら「終了しました」と表示
-	 * ※Scannerを使用 ※While文を使用してください
-	 */
-	Scanner scanner = new Scanner(System.in);
-	int number;
-	
+		/* Q10 ユーザーから 数値を入力 してもらう
+		 * 入力が 0 になるまで 何度でも入力を受け付ける
+		 * 0が入力されたら「終了しました」と表示
+		 * ※Scannerを使用 ※While文を使用してください
+		 */
+		Scanner scanner = new Scanner(System.in);
+		int number;
 
 		do {
 			number = scanner.nextInt();
