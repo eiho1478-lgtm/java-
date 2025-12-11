@@ -88,6 +88,7 @@ public class Question3 {
 
 		do {
 			number = scanner.nextInt();
+			scanner.nextLine();
 		} while (number != 0);
 		System.out.println("終了しました");
 
