@@ -151,4 +151,3 @@ public class Question3 {
 		scanner.close();
 	}
 }
-
