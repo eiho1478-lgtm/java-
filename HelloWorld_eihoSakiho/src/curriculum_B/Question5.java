@@ -25,7 +25,7 @@ public class Question5 {
 	/* Q3
 	 * 次の条件を満たす メソッド isEven を作成してください。
 	 * 1.引数:整数 (int num) 2.戻り値:true(偶数なら)、false(奇数なら) 3.num1に7,num2に10を設定し以下の実行例になるように表示
-	 * 実行例: 10 は偶数です。7 は奇数です。
+	 * 実行例: 10 は偶数です。7 は奇数です
 	 */
 
 	public static boolean isEven (int num) {
