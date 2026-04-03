@@ -1,4 +1,4 @@
-package 自己紹介;
+package introduction;
 
 public class Main {
 
