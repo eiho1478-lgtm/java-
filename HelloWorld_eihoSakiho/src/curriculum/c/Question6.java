@@ -21,7 +21,7 @@ public class Question6 {
 				continue;
 				}
 			
-			// プレイヤーが勝つパターン
+			// プレイヤーの勝利
 			if ((pHand == 0 && cHand == 1) ||
 					(pHand == 1 && cHand == 2) ||
 					(pHand == 2 && cHand == 0)) {

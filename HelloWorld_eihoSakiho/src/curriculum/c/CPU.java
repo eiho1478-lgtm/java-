@@ -10,6 +10,7 @@ public class CPU {
 	    public int getHand() {
 	        return random.nextInt(3);
 	    }
+	    
 
 	    // 数字 → 手の名前
 	    public String handToString(int hand) {
